@@ -1,0 +1,228 @@
+/* 
+ Author:Md.Mehedi Hasan
+ Email:mehedi.webdoc@gmail.com
+ Country:Bangladesh
+*/
+
+/*
+ =============== Index =======
+ 1.Global CSS
+ 2.Header Section
+ 3.Banner Section
+ 4.About Us Section
+ 5.Practice Area Section
+ 6.Lawyers Section
+ 7.Publication Section
+ 8.FAQ Section
+ 9.Contact Us Section
+ 10.Footer Area Section
+*/
+
+/* === 1.Global CSS Start=== */
+ section{
+	 padding:50px 0px;
+ }
+ .img-center{
+	 display:block;
+	 margin:0 auto;
+ }
+ .no-padding{
+	 padding:0px;
+ }
+ h1{ 
+ }
+ h2{ 
+ }
+ h3{}
+ h4{}
+ h5{}
+ h6{}
+ p{}
+ a{}
+/* === 1.Global CSS End===== */
+/* === 2.Header Section CSS Start === */
+.hero-area{
+	background-image: url(../images/hero-image.png);
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+}
+.hero-text{
+	padding-top:380px;
+}
+.hero-content{
+	border-left:2px solid green;
+}
+
+/* === 2.Header Section CSS End ===== */
+
+
+
+.about-us-heading{
+	width:49%;
+	border-left:2px solid green;
+	background-image: url(../images/aboutus-img.png);
+	background-position: 0% 80%;
+	padding:5px 0px;
+	background-repeat:no-repeat;
+}
+
+.practis-area-heading{
+	width:49%;
+	border-left:2px solid green;
+	background-image:url(../images/practis-bg.png);
+	background-position: 0% 80%;
+	padding:5px 0px;
+	background-repeat:no-repeat;
+	
+	
+}
+.practis-area .fas{
+	color: green;
+	font-size:30px;
+	
+}
+.practis-area{
+	background:#000;
+}
+.practis-area-heading h6{
+	color:#fff;
+}
+.practis-area p,h5,h6,h1{
+	color:#fff;
+}
+
+.attorney-heading{
+	width:49%;
+	
+}
+.attorney-heading h1,h6{
+	color:#000;
+}
+.testimonial-area{
+	background-image:url(../images/testimonial-bg2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+}
+
+.testimonial-heading{
+	width:49%;
+	border-left:2px solid green;
+	background-image:url(../images/testimonial-bg.png);
+	background-position: 0% 80%;
+	padding:5px 0px;
+	background-repeat:no-repeat;
+}
+.testimonial-heading h6{
+	color:#fff;
+}
+.publication-heading{
+	width:49%;
+	border-left:2px solid green;
+	background-image:url(../images/publication-bg.png);
+	background-position: 0% 80%;
+	padding:5px 0px;
+	background-repeat:no-repeat;
+}
+.publication-heading h1{
+	color:#000;
+}
+.publication-single-info h1{
+	color:#000;
+}
+
+.publication-date{
+	
+}
+.publication-content p{
+	text-align:justify;
+}
+.publication-title{
+	float:left;
+}
+.publication-image-caption h5{
+      color:#000;
+}
+.question-area{
+	background-color:#000;
+}
+
+
+.question-heading{
+	width:49%;
+	border-left:2px solid green;
+	background-image:url(../images/faq.bg.png);
+	background-position: 0% 80%;
+	padding:5px 0px;
+	background-repeat:no-repeat;
+}
+.question-heading h1,h6{
+	color:#fff;
+}
+.contact-heading{
+	width:49%;
+	border-left:2px solid green;
+	background-image:url(../images/contact-bg.png);
+	background-position: 0% 80%;
+	padding:5px 0px;
+	background-repeat:no-repeat;
+}
+.contact-heading h1,h6{
+	color:#000;
+}
+
+.google-map{
+    box-shadow: -13px 28px 0px yellow;
+    width:285px;
+	height:285px;
+	margin-left:0px;
+	
+}
+.no-padding{
+	padding:0px;
+}
+.footer-area{
+	padding:50px 0px;
+	background-color:#111;
+	
+}
+.copyright{
+	text-align:center;
+}
+.copyright p{
+	color:#f1f1f1;
+	
+}
+.social-icon{
+	margin-left:20px;
+}
+.social-icon ul{
+	list-style:none;
+	display:inline-block;
+}
+.social-icon ul li{
+	display:inline-block;
+	text-align:center;
+}
+.social-icon ul li a{
+	color:#fff;
+	margin:0px 2px;
+	cursor:pointer;
+	text-align:center;
+}
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:500px){
+	.hero-area{
+		height:auto;
+	}
+	.hero-text{
+	padding-top:100px;
+   }
+}
